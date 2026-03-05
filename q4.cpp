@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 int contarDivisiveisPor3e5(int N) {
+    int count = 0;
+    for (int i = 1; i <= N; i++)
+    {
+        if (i % 3 == 0 && i % 5 == 0)
+            count++;
+    }
+    return count;
+    
  // Implementar a lógica para contar os números divisíveis por 3 e 5
 }
 
