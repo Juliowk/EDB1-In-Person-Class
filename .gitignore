@@ -1,0 +1,16 @@
+# Executáveis
+*.exe
+*.out
+
+# Objetos e bibliotecas compiladas
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+
+# Pastas de IDEs comuns
+.vscode/
+.vs/
+build/
+bin/
