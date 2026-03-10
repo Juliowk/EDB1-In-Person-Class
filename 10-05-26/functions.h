@@ -1,0 +1,3 @@
+
+void goodMoorning();
+void goodNight();
